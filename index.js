@@ -14,7 +14,7 @@ const movies = ["https://www.imdb.com/title/tt2616620/?ref_=nm_knf_i1",
 
 (async () => {
     let imdbData = []
-    for(let movie of movies){
+    for (let movie of movies) {
         const response = await request({
             uri: movie,
             headers: {
